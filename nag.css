@@ -1,0 +1,53 @@
+#box-black{
+    width:400px; 
+    height: 500px; 
+    background-image: url("123.jpg");
+    border-color: yellowgreen;
+    border-style:solid;
+    border-width:4px;
+    position: relative;
+}
+.box-snake{
+    width:20px;
+    height:20px;
+    background-color: darkseagreen;
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+     
+}
+#box-food{
+    border-radius: 10px;
+    width:12px;
+    height:12px;
+    background-color: red;
+    position: absolute;
+    text-align: center;
+}
+
+#box-end{
+  position: absolute;
+  background-color: gray;
+  height:50px;
+  width: 250px; 
+  border-width: 4px;
+  border-color:pink;
+  border-style: solid;
+  left:67px;
+  top:208px;
+  line-height: 50px;
+  display: none;
+  font-size: 15px;
+}
+#merge{
+    width: 408px;
+}
+#score{
+    width: 204px;
+    background-color:gold;
+    float: right;
+}
+#highScore{
+    width: 204px;
+    background-color: darkgoldenrod
+}
