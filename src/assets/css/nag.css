@@ -6,6 +6,7 @@
     border-style:solid;
     border-width:4px;
     position: relative;
+    margin: auto;
 }
 .box-snake{
     width:20px;
@@ -14,7 +15,6 @@
     position: absolute;
     text-align: center;
     border-radius: 5px;
-     
 }
 #box-food{
     border-radius: 10px;
@@ -41,6 +41,7 @@
 }
 #merge{
     width: 408px;
+    margin: auto;
 }
 #score{
     width: 204px;
