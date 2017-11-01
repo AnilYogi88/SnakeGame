@@ -3,10 +3,10 @@
     height: 500px; 
     background-image: url("../images/background.jpg");
     border-color: yellowgreen;
-    border-style:solid;
-    border-width:4px;
+    
     position: relative;
     margin: auto;
+    padding: 0px;
 }
 .box-snake{
     width:20px;
@@ -18,11 +18,12 @@
 }
 #box-food{
     border-radius: 10px;
-    width:12px;
-    height:12px;
+    width:20px;
+    height:20px;
     background-color: red;
     position: absolute;
     text-align: center;
+    
 }
 
 #box-end{
@@ -40,15 +41,15 @@
   font-size: 15px;
 }
 #merge{
-    width: 408px;
+    width: 400px;
     margin: auto;
 }
 #score{
-    width: 204px;
+    width: 200px;
     background-color:gold;
     float: right;
 }
 #highScore{
-    width: 204px;
+    width: 200px;
     background-color: darkgoldenrod
 }
